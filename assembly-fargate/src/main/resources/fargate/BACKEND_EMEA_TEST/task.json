@@ -40,7 +40,7 @@
       ],
       "secrets": [
         {
-          "valueFrom": "<<TODO: set ARN of secrets manager>>",
+          "valueFrom": "arn:aws:elasticloadbalancing:eu-central-1:977744948079:loadbalancer/app/backend-lb/1e54d0782ab45ece",
           "name": "SPRING_APPLICATION_JSON"
         }
       ],
